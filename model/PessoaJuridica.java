@@ -4,7 +4,6 @@ import java.io.Serializable;
 public class PessoaJuridica extends Pessoa implements Serializable{
     long cnpj;
 
-
     public long getCnpj() {
         return cnpj;
     }
